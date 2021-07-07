@@ -13,9 +13,9 @@ function App() {
     segNombre: '',
     apePat: '',
     apeMat: '',
-    dia: '02',
-    mes: '01',
-    anio: '1996',
+    dia: '',
+    mes: '',
+    anio: '',
     email: '',
     numberPhone: ''
   });
@@ -73,7 +73,7 @@ function App() {
             <Data><b>Fecha de nacimiento:</b> {form.dia} {form.mes} {form.anio}</Data>
             <Data><b>Correo electrónico:</b> {form.email}</Data>
             <Data><b>Teléfono celular:</b> {form.numberPhone}</Data>
-            <Data><b>Nombre:</b> {form.nombres} {form.segNombre} {form.apePat} {form.apeMat}</Data>
+            <Data><b>Nombre:</b> {form.nombre} {form.segNombre} {form.apePat} {form.apeMat}</Data>
           </Result>
         )}
 
